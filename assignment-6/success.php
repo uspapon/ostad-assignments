@@ -9,7 +9,7 @@
   <body>
     <div class="container my-5">
         <div class="row my-5">
-            <div class="col col-md-2 col-lg-8 mx-auto">
+            <div class="col col-lg-8 mx-auto">
                 <h2 class="h2 my-5 text-success">User Registration Success</h2>
                 <table class="table">
                     <thead>

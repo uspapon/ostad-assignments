@@ -10,7 +10,7 @@
     <main>
         <div class="container my-5">
             <div class="row my-5">
-                <div class="col col-md-2 col-lg-8 mx-auto">
+                <div class="col col-lg-8 mx-auto">
                     <h2 class="h2 my-5">User Registration Form</h2>
                     <form action="process.php" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
