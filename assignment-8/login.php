@@ -19,12 +19,13 @@
         <div class="container my-5">
             <div class="row my-5">
                 <div class="col col-lg-8 mx-auto">
-                    <h2 class="h2 my-5">User Login</h2>
-                    <?php 
+                <?php 
                         if($errorMsg) {
                             echo $errorMsg;
                         }
                     ?>
+                   
+                    <h2 class="h2 my-5">User Login</h2>
                     <form action="process.php" method="post" enctype="multipart/form-data">
                         <div class="mb-3">
                             <label for="inputEmail" class="form-label">Email address</label>
