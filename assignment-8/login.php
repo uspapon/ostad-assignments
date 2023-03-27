@@ -40,6 +40,7 @@
                         <!-- end of inputPassword -->
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
+                    <p class="mt-5">Don't have an account? <a href="index.php">Sign up</a></p>
                     <!-- end of form -->
                 </div>
                 <!-- end of col -->
