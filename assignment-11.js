@@ -2,7 +2,7 @@
     Create a mutiplication table
 */
 function multiplicationTable(number = 1) {
-    if (typeof (number) == 'number') {
+    if (Number.isInteger (number)) {
         let result = '';
         const num = parseInt(number);
         for (let i = 1; i <= 10; i++) {
@@ -19,6 +19,6 @@ function multiplicationTable(number = 1) {
 
 
 }
-const number = 3.5;
+const number = 39;
 const resultingTable = multiplicationTable(number);
 console.log(resultingTable);
